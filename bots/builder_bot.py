@@ -14,7 +14,7 @@ class BotPlayer(Player):
     def play_turn(self, rc: RobotController):
         team = rc.get_ally_team()
         
-        # build all the buildings possible from top down
+        # build all the buildings possible from top downqqq
         # spam farm strat?
         for i in range(self.map.width):
             for j in range(self.map.height):
